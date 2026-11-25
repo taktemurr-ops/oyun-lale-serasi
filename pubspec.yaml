@@ -1,0 +1,24 @@
+name: oyun_lale_serasi
+description: "Lale Serası – Boşta ve Simülasyon merkez uygulamasının oyunu."
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: 05acd1e648dcb04c962281272f3fb806fc9ccc99
+  simulasyon_motoru:
+    git:
+      url: https://github.com/taktemurr-ops/simulasyon-motoru
+      ref: 19d04d6e13fb39b15b853f141fadd414c16744e5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
